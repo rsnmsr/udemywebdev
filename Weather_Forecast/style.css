@@ -1,0 +1,10 @@
+.flex-container{
+    display: flex;
+}
+.newParent{
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    background-color: turquoise;
+}

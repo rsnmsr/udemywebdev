@@ -1,0 +1,139 @@
+#title{
+    background-color: #ef8172;
+    color: #fff;
+}
+#features{
+    text-align: center;
+    background-color: #fff;
+}
+#testimonials{
+    text-align: center;
+    background-color:#ef8172 ;
+    color: #fff;
+}
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing{
+    text-align: center;
+}
+#cta{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    margin: 20px 2px;
+    padding: 2px;
+
+}
+
+/* Elements in order of specific-ness from top-bottom */
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;   
+}
+
+/* class in order of top-bottom */
+
+.navbar{
+    padding:0 0 2rem;
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+/* Image design */
+.img-phone{
+    width: 60%;
+    transform: rotate(12deg);
+}
+/* Adding margin to the feature rows */
+.feature-row{
+    margin: 3rem 0;
+}
+/* Adding styles to the font icons named as f_icon */
+.f_icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.f_icon:hover{
+    color: #ff4c68;
+}
+/* Change the feature of fonts style in feature box for h and p elements*/
+.feat_p_sty{
+    color: #8f8f8f;
+}
+.feat_h_sty{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Changing the image form the testimonial before applying carousal */
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.press_img{
+    width: 15%;
+    margin: 10px 10px 50px;
+}
+/* Apply the padding only to the text not on the button of carousal */
+.carousel-item{
+    padding: 7% 15%;
+}
+.foot_header{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.Footer_icons{
+    margin: 5px;
+}
+
+
+
+
+
+/* Note: Media query break point is used to implement certain properties to make the site more mobile friendly
+     In our given problem if the site has size less than 990px for smaller device the text becomes centre 
+     aligned.  */
+@media(max-width:990px){
+
+#title{
+    text-align: center;
+}
+.img-phone{
+    width: 60%;
+    position: relative;
+    transform : rotate(0deg);
+}
+}
